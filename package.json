@@ -1,0 +1,22 @@
+{
+  "name": "nau7802",
+  "version": "1.0.0",
+  "description": "NAU7802 A/D converter library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maripo/npm-nau7802.git"
+  },
+  "keywords": [
+    "adc", "nau7802", "raspberry-pi", "iot", "i2c"
+  ],
+  "author": "Maripo GODA",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maripo/npm-nau7802/issues"
+  },
+  "homepage": "https://github.com/maripo/npm-nau7802#readme"
+}
