@@ -1,6 +1,9 @@
 {
   "name": "nau7802",
-  "version": "1.0.0",
+  "version": "1.0.3",
+  "dependencies": {
+    "i2c-bus": "4.0.9"
+  },
   "description": "NAU7802 A/D converter library",
   "main": "index.js",
   "scripts": {
@@ -14,7 +17,7 @@
     "adc", "nau7802", "raspberry-pi", "iot", "i2c"
   ],
   "author": "Maripo GODA",
-  "license": "MIT",
+  "license": "MIT License",
   "bugs": {
     "url": "https://github.com/maripo/npm-nau7802/issues"
   },
