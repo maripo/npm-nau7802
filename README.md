@@ -29,7 +29,7 @@ const NAU7802 = require('nau7802');
 
 const adc = new NAU7802(1); // NAU7802 is connected to I2C.1 bus
 adc.start();
-adc.selectChannel1(); // Selec channel
+adc.selectChannel1(); // Select channel
 adc.setRate80SPS(); // Sampling rate
 adc.startCycle();
 
