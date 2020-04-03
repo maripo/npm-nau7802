@@ -92,9 +92,9 @@ class ADC_NAU7802 {
   }
   setRate20SPS () {
     // 001
-    this.clearRegisterBit(REG.CTRL2, 4);
+    this.setRegisterBit(REG.CTRL2, 4);
     this.clearRegisterBit(REG.CTRL2, 5);
-    this.setRegisterBit(REG.CTRL2, 6);
+    this.clearRegisterBit(REG.CTRL2, 6);
   }
   setRate40SPS () {
     // 010
@@ -104,9 +104,9 @@ class ADC_NAU7802 {
   }
   setRate80SPS () {
     // 011
-    this.clearRegisterBit(REG.CTRL2, 4);
+    this.setRegisterBit(REG.CTRL2, 4);
     this.setRegisterBit(REG.CTRL2, 5);
-    this.setRegisterBit(REG.CTRL2, 6);
+    this.clearRegisterBit(REG.CTRL2, 6);
   }
   setRate320SPS () {
     // 111 (Default)
